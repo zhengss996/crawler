@@ -7,7 +7,6 @@ Copyright (c) 2017/7/1, 海牛学院版权所有.
 import urllib, mx.URL
 from tld import get_fld
 
-
 class HtmlUtil:
 
     def get_doc_charset(self, doc):
