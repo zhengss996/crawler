@@ -5,7 +5,7 @@ Created on 2019/3/7 21:05
 Copyright (c) 2019/3/7, 海牛学院版权所有.
 @author: 潘牛
 '''
-import mx.URL,sys
+import mx.URL, sys
 from tld import get_fld
 from bs4 import BeautifulSoup
 from commons.util.request_util import RequestUtil

@@ -7,6 +7,7 @@ Copyright (c) 2017/7/1, 海牛学院版权所有.
 import os
 import content
 
+
 class FileUtil:
     
     def create_path(self, path):

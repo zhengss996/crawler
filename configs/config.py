@@ -25,7 +25,7 @@ _QUEUE_HAINIU = {'NAME':'hainiu', 'P_SLEEP_TIME': 3, 'C_MAX_NUM': 1,
                  'C_MAX_SLEEP_TIME': 1, 'C_RETRY_TIMES':3, 'MAX_FAIL_TIMES': 6,
                  'LIMIT_NUM': 2}
 #报警电话
-_ALERT_PHONE = '110'
+_ALERT_PHONE = '18555523381'
 
 _FIND_NEWS_CONFIG = {'NAME':'findnews', 'P_SLEEP_TIME': 3, 'C_MAX_NUM': 5,
                  'C_MAX_SLEEP_TIME': 1, 'C_RETRY_TIMES':3, 'MAX_FAIL_TIMES': 6,

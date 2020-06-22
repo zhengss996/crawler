@@ -141,7 +141,6 @@ class HainiuConsumerAction(ConsumerAction):
             db_util.close()
 
 
-
 if __name__ == '__main__':
     reload(sys)
     sys.setdefaultencoding('utf-8')

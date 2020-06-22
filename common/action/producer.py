@@ -77,14 +77,12 @@ class Producer(threading.Thread):
 
                         self.queue.put(c_action)
 
-
-                #获取endtime
+                # 获取endtime
                 end_time = time.time()
 
                 run_time = end_time - start_time
 
-
-                #计算每分钟生产多少个
+                # 计算每分钟生产多少个
                 if run_time == 0:
                     rate = total_num
                 else:
@@ -94,7 +92,7 @@ class Producer(threading.Thread):
                                  " produce %d actions/min, sleep_time=%d" %
                                  (self.name, total_num, rate, self.p_sleep_time))
 
-                #睡眠
+                # 睡眠
                 time.sleep(self.p_sleep_time)
 
 

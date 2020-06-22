@@ -7,7 +7,8 @@ Copyright (c) 2017/6/30, 海牛学院版权所有.
 
 from configs import config
 from logging.handlers import TimedRotatingFileHandler
-import logging,content
+import logging, content
+
 
 class LogUtil:
 

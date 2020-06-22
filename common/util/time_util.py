@@ -109,7 +109,8 @@ class TimeUtil():
         """
         now_time = datetime.datetime.now()
         return int(time.mktime(now_time.timetuple()))
-        
+
+
 if __name__ == "__main__":
     a = TimeUtil()
     print a.now_time()

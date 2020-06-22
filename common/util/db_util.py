@@ -94,7 +94,7 @@ if __name__ == '__main__':
     print d
     db.close()
 
-    #
+
     # from commons.util.log_util import LogUtil
     # l = LogUtil().get_base_logger()
     # try:

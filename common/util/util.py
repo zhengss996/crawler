@@ -43,7 +43,7 @@ class Util:
         UUID_SHA = uuid.uuid5(namespace,value)
         return str(UUID_SHA)
 
-    def get_json_dict(self,str):
+    def get_json_dict(self, str):
         rs = True
         try:
             rs = json.loads(str)
